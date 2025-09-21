@@ -22,6 +22,7 @@ public isolated client class CarRentalServiceClient {
         } else {
             message = req;
         }
+
         var payload = check self.grpcClient->executeSimpleRPC("car_rental.CarRentalService/AddCar", message, headers);
         [anydata, map<string|string[]>] [result, _] = payload;
         return <AddCarResponse>result;
