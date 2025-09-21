@@ -74,3 +74,5 @@ bal run client_test/client.bal
 - Supports streaming responses for car listings
 - Includes date validation for reservations
 - Role-based access control (Admin/Customer)
+
+bal run target/bin/car_rental.jar -- serve
