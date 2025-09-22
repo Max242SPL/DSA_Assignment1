@@ -61,11 +61,7 @@ bal run client_test/client.bal
 8. `PlaceReservation` - Convert cart to confirmed reservation
 9. `ListReservations` - Admin view of all reservations
 
-## Dependencies
 
-- Ballerina 2201.8.5
-- gRPC library
-- Protocol Buffers
 
 ## Notes
 
@@ -75,4 +71,6 @@ bal run client_test/client.bal
 - Includes date validation for reservations
 - Role-based access control (Admin/Customer)
 
-bal run target/bin/car_rental.jar -- serve
+bal build
+bal run target/bin/car_rental.jar -- server
+bal run target/bin/car_rental.jar -- server
