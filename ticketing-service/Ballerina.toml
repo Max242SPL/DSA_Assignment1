@@ -1,0 +1,12 @@
+[package]
+org = "transport"
+name = "ticketing_service"
+version = "1.0.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "kafka"
+version = "4.0.0"
