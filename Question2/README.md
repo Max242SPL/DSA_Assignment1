@@ -141,6 +141,7 @@ Authorization: Bearer <jwt-token>
 
 ### Transport Service APIs
 
+<<<<<<< HEAD:README.md
 #### Create a route
 ```http
 POST /transport/routes
@@ -154,6 +155,9 @@ Content-Type: application/json
   "stops": ["City Center", "Katutura", "Eros Airport", "Hosea Kutako Airport"]
 }
 ```
+=======
+
+>>>>>>> bd34cd45ebc318bbaf34d9c2180d401a9331ea2e:Question2/README.md
 
 #### Get all routes
 ```http
@@ -506,3 +510,9 @@ This project was developed as a group assignment for the DSA612S course.
 
 **Note**: This is a demonstration system for educational purposes. In a production environment, additional security measures, monitoring, and scalability considerations would be required.
 
+<<<<<<< HEAD:README.md
+=======
+bal build
+bal run target/bin/car_rental.jar -- server
+bal run target/bin/car_rental.jar -- server
+>>>>>>> bd34cd45ebc318bbaf34d9c2180d401a9331ea2e:Question2/README.md

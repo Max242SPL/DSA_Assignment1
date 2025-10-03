@@ -1,0 +1,4 @@
+[package]
+org = "nust"
+name = "asset_api"
+version = "0.1.0"
